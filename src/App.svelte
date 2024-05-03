@@ -1,16 +1,11 @@
 <script>
-  import svelteLogo from "./assets/svelte.svg";
-  import viteLogo from "/vite.svg";
-  import Counter from "./lib/Counter.svelte";
+  import Router from "svelte-spa-router";
+  import Main from "./pages/Main.svelte";
+  import "./css/style.css";
+
+  const routes = {
+    "/": Main,
+  };
 </script>
 
-<main></main>
-안녕
-<img src="gather-background" alt="" />
-
-<style>
-  img {
-    width: 100vw;
-    height: 100vw;
-  }
-</style>
+<Router {routes} />

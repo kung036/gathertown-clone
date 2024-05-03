@@ -1,0 +1,14 @@
+.background-img {
+  display: flexbox;
+  background-image: url("gather-background.png");
+  background-size: cover;
+  width: 300vw;
+  height: 700vh;
+}
+
+.background-img img {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+*/
+}
